@@ -6,9 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./lista.component.css']
 })
 export class ListaComponent {
-  movies: string[] = [
-    'The Butterfly Effect', 'Fabricated city',
-    'The Nun', 'Hereditary', 'Orphan', 'Heavens Postman'
+  students: string[] = [
+    'Maria Sandra Lopez Juarez', 'José Eduardo Pérez Castillo',
+    'Thalia Lisset Jeremías Santos', 'Susana Cecilia Álvarez Durand', 
+    'Pedro Javier Morales Cáceres'
   ];
 
   isLoading = true;
