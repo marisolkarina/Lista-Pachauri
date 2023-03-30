@@ -1,0 +1,8 @@
+<div [ngClass]="isLoading ? 'success' : 'error'">
+    {{isLoading ? 'Está cargando' : 'No está cargando'}}
+</div>
+
+<ul>
+    <li *ngFor = "let movie of movies">{{movie | uppercase}}</li>
+</ul>
+
